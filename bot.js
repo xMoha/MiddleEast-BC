@@ -32,7 +32,7 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
 client.login(process.env.BOT_TOKEN);  //اياكككك تلعب هنا لا تحط توكنك هنا 
 
 client.on('message',async message => {
-  if(message.content.startsWith(prefix + "bc")) {
+  if(message.content.startsWith(prefix + "t5gttrffggffygtttgfbjbc")) {
     let filter = m => m.author.id === message.author.id;
     let thisMessage;
     let thisFalse;
@@ -76,7 +76,7 @@ client.on('message',async message => {
 
 client.on('message', message => {
               if(!message.channel.guild) return;
-    if(message.content.startsWith('^bc')) {
+    if(message.content.startsWith('-bc')) {
     if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
   if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
     let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
