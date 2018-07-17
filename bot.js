@@ -98,7 +98,7 @@ client.on('message', message => {
        Discord.RichEmbed()
        .setColor('RANDOM')
        .setTitle('البرودكاست') .addField('السيرفر', message.guild.name) .addField('المرسل', message.author.username)
-       .addField('الرساله', **args**)
+       .addField('الرساله', args )
        .setThumbnail(message.author.avatarURL)
        .setFooter(copy, client.user.avatarURL);
     m.send({ embed: bc })
