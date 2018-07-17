@@ -155,3 +155,9 @@ ${prefix}setgame ⇏ لي تغير حالة بوت
 ${prefix}setnme ⇏ تغير اسم بوت
 ${prefix}setT ⇏ لي تغير حالة بوت لي تشويتش او حالة بنفسجية
 ${prefix}setavatar ⇏ تغير صورة بوت
+
+ `);
+   message.channel.sendEmbed(embed);
+    
+   }
+   }); 
