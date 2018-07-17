@@ -117,7 +117,7 @@ client.on('message', message => {
 
 
 
-const adminprefix = "$vip";
+const adminprefix = "-";
 const devs = ['443852053882601504','452785037511753728' ];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
